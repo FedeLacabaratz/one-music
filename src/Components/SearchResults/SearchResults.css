@@ -4,8 +4,14 @@
     overflow-y: scroll;
     padding: .88rem;
     background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 4px 2px 2px #000000;
+    box-shadow: 0 4px 2px 2px #000000
+  }
+
+  h2 {
     color: #fff;
+    margin-top: 0.1em;
+    border-bottom: 1px solid #6f6f6f;
+    font-size: 1.55rem
   }
   
   ::-webkit-scrollbar {

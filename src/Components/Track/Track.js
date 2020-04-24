@@ -1,7 +1,7 @@
 import React from 'react'
 import './Track.css'
 
-export class Track extends React.Component {
+class Track extends React.Component {
 
     renderAction() {
         if(this.props.isRemoval) {
@@ -15,11 +15,13 @@ export class Track extends React.Component {
         return(
             <div className="Track">
             <div className="Track-information">
-                <h3>track name will go here </h3>
-                <p> track artist will go here |  track album will go here </p>
+                <h3>{this.props.name}</h3>
+                <p> {this.props.artist} | {this.props.album} </p>
             </div>
             {this.renderAction()}
             </div>
         )
     }
 }
+
+export default Track;
