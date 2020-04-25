@@ -42,7 +42,7 @@ p {
 
 .App {
   height: 100%;
-  padding: 0 15% 10% 15%;
+  padding: 0 1% 10% 1%;
   background-image: url('./background_photo_desktop.jpg');
   background-size: cover;
   background-position: center;
@@ -55,7 +55,7 @@ p {
 .App-playlist {
   display: flex;
   
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
